@@ -1,4 +1,4 @@
-baseURL = "https://atom-robotics-lab.github.io"
+baseURL = "https://atom-robotics-lab.github.io/"
 title = "ATOM Labs"
 theme = "hugo-coder"
 languageCode = "en"
