@@ -11,6 +11,7 @@ enableEmoji = true
 
 [params]
 author = "ATOM Labs"
+
 description = "A robotics Community based out of Delhi"
 keywords = "blog,developer,personal"
 info = ["Robotics community based in Delhi"]
