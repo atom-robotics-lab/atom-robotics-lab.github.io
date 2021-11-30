@@ -1,84 +1,217 @@
 baseURL = "https://atom-robotics-lab.github.io/"
-title = "ATOM Labs"
-theme = "hugo-coder"
-languageCode = "en"
-defaultContentLanguage = "en"
-paginate = 20
-pygmentsStyle = "bw"
-pygmentsCodeFences = true
-pygmentsCodeFencesGuessSyntax = true
-enableEmoji = true
+title   = "A.T.O.M Labs"
+languageCode = "en-us"
+theme = "hello-friend-ng"
 
-[params]
-author = "ATOM Labs"
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
 
-description = "A robotics Community based out of Delhi"
-keywords = "blog,developer,personal"
-info = ["Robotics community based in Delhi"]
-avatarURL = "images/logo.png"
-#gravatar = "john.doe@example.com"
-dateFormat = "January 2, 2006"
-since = 2021
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-colorScheme = "dark"
+# googleAnalytics = ""
+# disqusShortname = ""
 
-hideColorSchemeToggle = false
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
 
-maxSeeAlsoItems = 5
-# Custom CSS
-customCSS = []
-# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
-customSCSS = []
-# Custom JS
-customJS = []
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "A.T.O.M Labs"
+
+[blackfriday]
+  hrefTargetBlank = true
 
 [taxonomies]
-category = "categories"
-series = "series"
-tag = "tags"
-author = "authors"
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
 
-[[params.social]]
-name = "Github"
-icon = "fa fa-2x fa-github"
-weight = 1
-url = "https://github.com/atom-robotics-labs"
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
 
+  # Metadata mostly used in document's head
+  # 
+  description = "A Robotics Society/Community based out of Delhi"
+  keywords = "blog, robotics, club, wiki"
+  images = [""]
 
+  # Home subtitle of the index page.
+  #
+  homeSubtitle = "A.T.O.M Labs"
 
-[[params.social]]
-name = "RSS"
-icon = "fa fa-2x fa-rss"
-weight = 6
-url = "https://atom-robotics-lab.github.io/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
+  # Set a background for the homepage
+  backgroundImage = "/images/particles.png"
 
-[languages.en]
-languageName = ":uk:"
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  #
+  # gitUrl = ""
 
-[[languages.en.menu.main]]
-name = "About"
-weight = 1
-url = "about/"
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  #
+  disableReadOtherPosts = false
 
-[[languages.en.menu.main]]
-name = "Wiki"
-weight = 2
-url = "/wiki"
+  # Enable theme toggle
+  # 
+  # This options enables the theme toggle for the theme. 
+  # Per default, this option is off. 
+  # The theme is respecting the prefers-color-scheme of the operating systeme. 
+  # With this option on, the page user is able to set the scheme he wants. 
+  enableThemeToggle = true 
 
-[[languages.en.menu.main]]
-name = "Sessions"
-weight = 3
-url = "sessions/"
+  # Sharing buttons
+  #
+  # There are a lot of buttons preconfigured. If you want to change them,
+  # generate the buttons here: https://sharingbuttons.io
+  # and add them into your own `layouts/partials/sharing-buttons.html`
+  #
+  enableSharingButtons = true
 
-[[languages.en.menu.main]]
-name = "Events"
-weight = 4
-url = "events/"
+  # Global language menu
+  #
+  # Enables the global language menu.
+  #
+  enableGlobalLanguageMenu = true
 
-[[languages.en.menu.main]]
-name = "Contact us"
-weight = 5
-url = "contact/"
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  #
+  customCSS = []
+  customJS  = []
 
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  #
+  justifyContent = false  # Set "text-align: justify" to .post-content.
+
+  # Custom footer 
+  # If you want, you can easily override the default footer with your own content. 
+  #
+  [params.footer]
+    trademark = true
+    rss = true
+    copyright = true
+    author = true
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+    ]
+
+  # Colors for favicons
+  #
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+  # Commento is more than just a comments widget you can embed — 
+  # it’s a return to the roots of the internet. 
+  # An internet without the tracking and invasions of privacy. 
+  # An internet that is simple and lightweight. 
+  # An internet that is focused on interesting discussions, not ads. 
+  # A better internet.
+  # Uncomment this to enable Commento.
+  #
+  # [params.commento]
+  #   url = ""
+
+  # Uncomment this if you want a portrait on your start page
+  #
+  [params.portrait]
+    path     = "/images/logo_with_background.jpg"
+    alt      = "Logo"
+    maxWidth = "220px"
+
+  # Social icons
+  [[params.social]]
+    name = "instagram"
+    url  = "https://www.instagram.com/a.t.o.m_robotics_lab/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:atom@inventati.org"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/atom-robotics-lab"
+
+  [[params.social]]
+    name = "discord"
+    url  = "https://discord.gg/rs6WkMkj"
+
+  [[params.social]]
+    name = "youtube"
+    url  = "https://www.youtube.com/channel/UCMGzre9_yk8R42rBfu9gO1A"
+
+[languages]
+  [languages.en]
+    subtitle  = "A.T.O.M Labs"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  [languages.fr]
+    subtitle  = "A.T.O.M Labs"
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+    weight     = 1
+  [[menu.main]]
+    identifier = "wiki"
+    name       = "Wiki"
+    url        = "wiki"
+    weight     = 2
+  [[menu.main]]
+    identifier = "session"
+    name       = "Sessions"
+    url        = "sessions/"
+    weight     = 3 
+  [[menu.main]]
+    identifier = "events"
+    name       = "Events"
+    url        = "events/"
+    weight     = 4 
+  [[menu.main]]
+    identifier = "contact"
+    name       = "Contact Us"
+    url        = "contact/"
+    weight     = 5 
