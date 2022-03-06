@@ -194,9 +194,9 @@ disableHugoGeneratorInject = false
     weight     = 3 
 
   [[menu.main]]
-    identifier = "projects"
-    name       = "Projects"
-    url        = "projects/"
+    identifier = "team"
+    name       = "Team"
+    url        = "team"
     weight     = 4
   [[menu.main]]
     identifier = "contact"
