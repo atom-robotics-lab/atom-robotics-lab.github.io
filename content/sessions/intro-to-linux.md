@@ -11,4 +11,4 @@ aliases = ["orientation"]
 In this session we gave the folks a gentle introduction to the beautiful world of the Robot Operaing System.
 Some of the topics we talked about in this session are -:
 
-{{< embed-pdf url="~/dev/web-stuff/atom.fsug.in/static/intro-to-ros.pdf" hidePaginator="true" >}}
+* Why ROS
