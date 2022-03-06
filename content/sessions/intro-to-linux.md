@@ -8,7 +8,5 @@ categories = [ "Completed"]
 aliases = ["orientation"]
 +++
 
-In this session we gave the folks a gentle introduction to the beautiful world of the Robot Operaing System.
-Some of the topics we talked about in this session are -:
-
-* Why ROS
+In this session we gave the folks a gentle introduction to the beautiful world of the Robot Operating System.
+* Location - Online - Discord Server
