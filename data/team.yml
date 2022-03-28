@@ -1,0 +1,67 @@
+enable  : true
+title   : Team that plans to be cyborgs someday.
+members  :
+  - image       : images/team/team-member-one.jpg
+    name        : Jasmeet Singh (@processingh)
+    designation : Founder | Admin 
+    medium      : https://www.medium.com/
+    linkedIn    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+
+  - image       : images/team/team-member-two.jpg
+    name        : Naman Malik (@Mr_No-Man)
+    designation : Founder | Admin 
+    medium      : https://www.medium.com/
+    linkedIn    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+
+  - image       : images/team/team-member-three.jpg
+    name        : Manav Sethi (@insaanimanav)
+    designation : Founder | Admin 
+    medium      : https://www.medium.com/
+    linkedIn    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+
+  - image       : images/team/team-member-four.jpg
+    name        : Kartik Rana (@Brad)
+    designation : Admin
+    medium      : https://www.medium.com/
+    linkedIn    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+
+  - image       : images/team/team-member-five.jpg
+    name        : Himanshu S. Rawat (@HazorTremz)
+    designation : Website Manager
+    medium      : https://www.medium.com/
+    linkedIn    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+
+  - image       : images/team/team-member-six.jpg
+    name        : Divyansh Sharma (@Divyansh)
+    designation : Social Media Manager
+    linkedIn    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+
+  - image       : images/team/team-member-six.jpg
+    name        : Manan Gupta (@ArsEnIOUs)
+    designation : Social Media Manager
+    linkedIn    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+
+  - image       : images/team/team-member-six.jpg
+    name        : Jayesh Chaudhary (@JC)
+    designation : Social Media Manager
+    linkedIn    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+  
+  - image       : images/team/team-member-six.jpg
+    name        : Arjun K Haridas (@topguns387)
+    designation : Social Media Manager
+    linkedIn    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+
+  - image       : images/team/team-member-six.jpg
+    name        : Sahaj Arora (@sahaj)
+    designation : Social Media Manager
+    linkedIn    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
