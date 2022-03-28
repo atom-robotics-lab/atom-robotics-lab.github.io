@@ -1,205 +1,139 @@
-baseURL = "https://atom-robotics-lab.github.io"
-title   = "A.T.O.M Labs"
-languageCode = "en-us"
-theme = "hello-friend-ng"
+baseURL       = "https://atom-robotics-lab.github.io"
+languageCode  = "en-us"
+title         = "A.T.O.M Labs"
+theme         = "roxo"
+summarylength = 25
 
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
-
-paginate  = 10
-rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
-
-# googleAnalytics = ""
-# disqusShortname = ""
-
-archetypeDir = "archetypes"
-contentDir   = "content"
-dataDir      = "data"
-layoutDir    = "layouts"
-publishDir   = "public"
-
-buildDrafts  = false
-buildFuture  = false
-buildExpired = false
-canonifyURLs = true
-
-enableRobotsTXT = true
-enableGitInfo   = false
-enableEmoji     = true
-enableMissingTranslationPlaceholders = false
-disableRSS     = false
-disableSitemap = false
-disable404     = false
-disableHugoGeneratorInject = false
-
-[permalinks]
-  posts = "/posts/:year/:month/:title/"
-
-[author]
-  name = "A.T.O.M Labs"
-
-[blackfriday]
-  hrefTargetBlank = true
-
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
-  series   = "series"
-
-[params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
-
-  # Metadata mostly used in document's head
-  # 
-  description = "A Robotics Society/Community based out of Delhi"
-  keywords = "blog, robotics, club, wiki"
-  images = [""]
-
-  # Home subtitle of the index page.
-  #
-  homeSubtitle = "A.T.O.M Labs"
-
-  # Set a background for the homepage
-  backgroundImage = "/images/particles.png"
-
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  #
-  # gitUrl = ""
-
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  #
-  disableReadOtherPosts = false
-
-  # Enable theme toggle
-  # 
-  # This options enables the theme toggle for the theme. 
-  # Per default, this option is off. 
-  # The theme is respecting the prefers-color-scheme of the operating systeme. 
-  # With this option on, the page user is able to set the scheme he wants. 
-  enableThemeToggle = true 
-
-  # Sharing buttons
-  #
-  # There are a lot of buttons preconfigured. If you want to change them,
-  # generate the buttons here: https://sharingbuttons.io
-  # and add them into your own `layouts/partials/sharing-buttons.html`
-  #
-  enableSharingButtons = true
-
-  # Global language menu
-  #
-  # Enables the global language menu.
-  #
-  enableGlobalLanguageMenu = true
-
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  #
-  customCSS = []
-  customJS  = []
-
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  #
-  justifyContent = false  # Set "text-align: justify" to .post-content.
-
-  # Custom footer 
-  # If you want, you can easily override the default footer with your own content. 
-  #
-  [params.footer]
-  
-    topText = [
-      "A hacker is someone who enjoys playful cleverness not neccesarily with computers",
-
-    ]
-    bottomText = [
-      "Copyheart ❤️ all wrongs reversed",
-    ]
-
-  # Colors for favicons
-  #
-  [params.favicon.color]
-    mask = "#1b1c1d"
-    msapplication = "#1b1c1d"
-    theme = "#1b1c1d"
-
-  [params.logo]
-    logoMark     = ">"
-    logoText     = "$ cd /home/"
-    logoHomeLink = "/"
-    # Set true to remove the logo cursor entirely.
-    # logoCursorDisabled = false
-    # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#67a2c9" 
-    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    # logoCursorAnimate  = "2s"
-
-  # Commento is more than just a comments widget you can embed — 
-  # it’s a return to the roots of the internet. 
-  # An internet without the tracking and invasions of privacy. 
-  # An internet that is simple and lightweight. 
-  # An internet that is focused on interesting discussions, not ads. 
-  # A better internet.
-  # Uncomment this to enable Commento.
-  #
-  # [params.commento]
-  #   url = ""
-
-  # Uncomment this if you want a portrait on your start page
-  #
-  [params.portrait]
-    path     = "/images/logo_with_background.jpg"
-    alt      = "Logo"
-    maxWidth = "220px"
-
-  # Social icons
-  [[params.social]]
-    name = "instagram"
-    url  = "https://www.instagram.com/a.t.o.m_robotics_lab/"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:atom@inventati.org"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/atom-robotics-lab"
-
-  [[params.social]]
-    name = "discord"
-    url  = "https://discord.gg/rs6WkMkj"
-
-  [[params.social]]
-    name = "youtube"
-    url  = "https://www.youtube.com/channel/UCMGzre9_yk8R42rBfu9gO1A"
-
+# Site Menus
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-    weight     = 1
-  [[menu.main]]
-    identifier = "wiki"
-    name       = "Wiki"
-    url        = "wiki"
-    weight     = 2
-  [[menu.main]]
-    identifier = "session"
-    name       = "Sessions"
-    url        = "sessions/"
-    weight     = 3 
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Wiki"
+    url     = "wiki"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Projects"
+    url     = "projects"
+    weight  = 4
+  [[menu.nav]]
+    name    = "Blog"
+    url     = "blog"
+    weight  = 5
+  [[menu.nav]]
+    name    = "Sessions"
+    url     = "sessions"
+    weight  = 6
+  [[menu.nav]]
+    name    = "Get in touch"
+    url     = "contact"
+    weight  = 7
 
-  [[menu.main]]
-    identifier = "team"
-    name       = "Team"
-    url        = "team"
-    weight     = 4
-  [[menu.main]]
-    identifier = "contact"
-    name       = "Contact Us"
-    url        = "contact/"
-    weight     = 5 
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "A Robotics Society | Community based out of Delhi"
+  author = "StaticMania"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/myykjpje"
+
+  # Contact Form
+  [params.contactForm]
+    placeholder_first_name        = "First Name"
+    placeholder_last_name         = "Last Name"
+    placeholder_email             = "Email"
+    placeholder_project_type      = "Project Type"
+    placeholder_about_the_project = "About the Project"
+    send_message                  = "Send Message"
+
+    [[params.contactForm.projectType]]
+      value = "gd"
+      title  = "Graphics Design"
+    [[params.contactForm.projectType]]
+      value = "wd"
+      title  = "Web Design"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/hero-background.png"
+    heading               = "A.T.O.M ROBOTICS LAB"
+    tagline               = "WE PLAY HARD, WE WORK HARD"
+    primary_button        = "See Our Projects"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Connect with Us"
+    secondary_button_url  = "contact"
+
+#  [params.portfolio]
+#    enable    = true
+#    title     = "OUR RECENT WORKS"
+#    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+
+#  [params.call_to_action]
+#    enable              = true
+#    background_image    = "images/backgrounds/cta-background.jpg"
+#    title               = "LET’S WORK TOGETHER"
+#    primary_button      = "Submit Query"
+#    primary_button_url  = "contact"
+#    secondary_button    = "Not Convinced"
+#    secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Where to find us?"
+      address = "ECE Block Basement <br>Maharaja Agrasen Institute of Technology"
+      phone   = "8802327251"
+      email   = "atom@inventati.org"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About Us"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Projects"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Blog"
+          url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "Discord"
+          url  = "https://discord.gg/QxezpRQkJG"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "https://www.instagram.com/a.t.o.m_robotics_lab/"
+        [[params.footer.social.link]]
+          name = "Github"
+          url  = "https://github.com/atom-robotics-lab"
+        [[params.footer.social.link]]
+          name = "YouTube"
+          url  = "https://www.youtube.com/channel/UCMGzre9_yk8R42rBfu9gO1A"
+      # Footer Service
+      [params.footer.service]
+        title       = "We like to build Robots:"
+        description = "A Robotics Society | Community <br>based out of Delhi"
