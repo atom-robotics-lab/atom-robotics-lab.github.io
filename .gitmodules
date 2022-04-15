@@ -6,4 +6,4 @@
 	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
 [submodule "themes/roxo"]
 	path = themes/roxo
-	url = git@github.com:StaticMania/roxo-hugo.git
+	url = git@github.com:atom-robotics-lab/roxo-hugo.git
