@@ -1,7 +1,7 @@
 enable  : true
 title   : Team that plans to be cyborgs someday.
 members  :
-  - image       : images/team/jasmeet_singh.jpeg
+  - image       : images/team/jasmeet_singh.jpg
     name        : Jasmeet Singh (@processingh)
     designation : Founder | Admin | IOT | Embedded Systems 
     github      : https://github.com/jasmeet0915
@@ -22,21 +22,21 @@ members  :
     linkedin    : https://www.linkedin.com/in/insaanimanav/
     instagram   : https://www.instagram.com/insaanimanav/
 
-  - image       : images/team/kartik_rana.png
+  - image       : images/team/brad.jpg
     name        : Kartik Rana (@Brad)
     designation : Admin | Backend | World Designer
     github      : https://github.com/Kartik9250
     linkedin    : https://www.linkedin.com/in/kartik-rana-33056717b/
     instagram   : https://www.instagram.com/kartik_r.a.n.a/
 
-  - image       : images/team/h.png
+  - image       : images/team/himanshu_rawat.jpg
     name        : Himanshu S. Rawat (@HazorTremz)
     designation : Website Manager | IOT | Backend
     github      : https://github.com/HazorTremz
     linkedin    : https://www.linkedin.com/in/himanshu-singh-rawat-317498201/
     instagram   : https://www.instagram.com/himanshu.s.rawat_hsr_/
 
-  - image       : images/team/divyansh.png
+  - image       : images/team/divyansh.jpg
     name        : Divyansh Sharma (@Divyansh)
     designation : Social Media Manager | Embedded Systems | IOT
     github      : https://github.com/Divyansh74
@@ -50,21 +50,21 @@ members  :
     linkedin    : https://www.linkedin.com/in/manan-gupta-52691a213/
     instagram   : https://www.instagram.com/manan_gupta28/
 
-  - image       : images/team/jc.jpg
+  - image       : images/team/jayesh_chaudhary.jpg
     name        : Jayesh Chaudhary (@JC)
     designation : Embedded Systems | IOT
     github      : https://github.com/jchaudhary21
     linkedin    : https://www.linkedin.com/in/jayesh-chaudhary-885a6a1ba/
     instagram   : https://www.instagram.com/jchaudhary_00/
   
-  - image       : images/team/arjun.jpeg
+  - image       : images/team/arjun.jpg
     name        : Arjun K Haridas (@topguns387)
     designation : AI/ML
     github      : https://github.com/topguns837
     linkedin    : https://www.linkedin.com/in/arjun-k-haridas-9a5844207/
     instagram   : https://www.instagram.com/arjun.kh8376/
 
-  - image       : images/team/sahej.jpeg
+  - image       : images/team/sahej.jpg
     name        : Sahaj Arora (@sahaj)
     designation : Embedded Systems | IOT
     github      : https://github.com/st44u
