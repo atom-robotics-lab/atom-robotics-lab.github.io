@@ -4,64 +4,69 @@ members  :
   - image       : images/team/jasmeet_singh.jpeg
     name        : Jasmeet Singh (@processingh)
     designation : Founder | Admin | IOT | Embedded Systems 
-    medium      : https://github.com/jasmeet0915
-    linkedIn    : https://www.linkedin.com/in/jasmeet-singh-93b12013b/
+    github      : https://github.com/jasmeet0915
+    linkedin    : https://www.linkedin.com/in/jasmeet-singh-93b12013b/
     instagram   : https://www.instagram.com/debounsingh/
 
   - image       : images/team/naman_malik.jpg
     name        : Naman Malik (@Mr_No-Man)
     designation : Founder | Admin | CAD | IOT
-    medium      : https://github.com/namikxgithub
-    linkedIn    : https://www.linkedin.com/in/naman-malik-495664133/
+    github      : https://github.com/namikxgithub
+    linkedin    : https://www.linkedin.com/in/naman-malik-495664133/
     instagram   : https://www.instagram.com/namanmalik0210/
 
   - image       : images/team/manav_sethi.jpg
     name        : Manav Sethi (@insaanimanav)
     designation : Founder | Admin | Devops Nerd
-    medium      : https://github.com/insaaniManav
-    linkedIn    : https://www.linkedin.com/in/insaanimanav/
+    github      : https://github.com/insaaniManav
+    linkedin    : https://www.linkedin.com/in/insaanimanav/
     instagram   : https://www.instagram.com/insaanimanav/
 
   - image       : images/team/kartik_rana.png
     name        : Kartik Rana (@Brad)
     designation : Admin | Backend | World Designer
-    medium      : https://github.com/Kartik9250
-    linkedIn    : https://www.linkedin.com/in/kartik-rana-33056717b/
+    github      : https://github.com/Kartik9250
+    linkedin    : https://www.linkedin.com/in/kartik-rana-33056717b/
     instagram   : https://www.instagram.com/kartik_r.a.n.a/
 
   - image       : images/team/h.png
     name        : Himanshu S. Rawat (@HazorTremz)
     designation : Website Manager | IOT | Backend
-    medium      : https://github.com/HazorTremz
-    linkedIn    : https://www.linkedin.com/in/himanshu-singh-rawat-317498201/
+    github      : https://github.com/HazorTremz
+    linkedin    : https://www.linkedin.com/in/himanshu-singh-rawat-317498201/
     instagram   : https://www.instagram.com/himanshu.s.rawat_hsr_/
 
   - image       : images/team/divyansh.png
     name        : Divyansh Sharma (@Divyansh)
     designation : Social Media Manager | Embedded Systems | IOT
-    linkedIn    : https://www.linkedin.com/in/divyansh-sharma-8049631a0/
+    github      : https://github.com/Divyansh74
+    linkedin    : https://www.linkedin.com/in/divyansh-sharma-8049631a0/
     instagram   : https://www.instagram.com/divyanshsharma5289/
 
   - image       : images/team/manan.jpg
     name        : Manan Gupta (@ArsEnIOUs)
-    designation : CAD  
-    linkedIn    : https://www.linkedin.com/in/manan-gupta-52691a213/
+    designation : CAD
+    github      : https://github.com/MGupta28  
+    linkedin    : https://www.linkedin.com/in/manan-gupta-52691a213/
     instagram   : https://www.instagram.com/manan_gupta28/
 
   - image       : images/team/jc.jpg
     name        : Jayesh Chaudhary (@JC)
     designation : Embedded Systems | IOT
-    linkedIn    : https://www.linkedin.com/in/jayesh-chaudhary-885a6a1ba/
+    github      : https://github.com/jchaudhary21
+    linkedin    : https://www.linkedin.com/in/jayesh-chaudhary-885a6a1ba/
     instagram   : https://www.instagram.com/jchaudhary_00/
   
   - image       : images/team/arjun.jpeg
     name        : Arjun K Haridas (@topguns387)
     designation : AI/ML
-    linkedIn    : https://www.linkedin.com/in/arjun-k-haridas-9a5844207/
+    github      : https://github.com/topguns837
+    linkedin    : https://www.linkedin.com/in/arjun-k-haridas-9a5844207/
     instagram   : https://www.instagram.com/arjun.kh8376/
 
   - image       : images/team/sahej.jpeg
     name        : Sahaj Arora (@sahaj)
     designation : Embedded Systems | IOT
-    linkedIn    : https://www.linkedin.com/in/sahaj-arora-435093210/
+    github      : https://github.com/st44u
+    linkedin    : https://www.linkedin.com/in/sahaj-arora-435093210/
     instagram   : https://www.instagram.com/sahajarrrora/
