@@ -16,20 +16,20 @@ The hackathon had many tech related themes like AI/ML, Future Mobility, IOT, Fin
 If you are reading this blog, then either you know what hackathons are or you are eager to find out. In any case, let me just breif you about *'Hackathons'*. 
 
 Hackthons are *generally* over-night events in which makers and engineers get together as teams to create a solution from scratch for some real world problems.
-Some hackthons target very generic industries like Healthcare, Education, FinTech etc. while others target really specific problem statements like 'Building an Autonoumous Solution for Counting Large Steel Pipes for Inventory Management'.
+Some hackathons target very generic industries like Healthcare, Education, FinTech etc. while others target really specific problem statements like 'Building an Autonoumous Solution for Counting Large Steel Pipes for Inventory Management'.
 
-Participants in a 24 - 36 hour period of hackathon not only brainstorm over the technical aspects of a project, but also over the real world implementation of their solution as a business. Hackathons are a great opportunity for a getting yourself acquatined with new technologies and new people. So even if you don't complete your project in time, you still got a ton of networking to do which is even more helpful. 
+Participants in a 24 - 36 hour period of hackathon, not only brainstorm over the technical aspects of a project, but also over the real world implementation of their solution as a business. Hackathons are a great opportunity for a getting yourself acquatined with new technologies and new people. So even if you don't complete your project in time, you still got a ton of networking to do which is equally helpful. 
 
-So basically the benefits a hackthon can be summarized as follows:
- * Lot's challenging problem solving and brainstroming
- * Working on new technolgoies and stacks
+So basically the benefits of a hackthon can be summarized as follows:
+ * Lots of challenging problem solving and brainstorming
+ * Working on new technologies and stacks
  * Lots and Lots of Networking
  * A whole day of fun and free food (we all love that, don't we?)
  * Tons and Tons of swags like tshirts, stickers, badges etc. (We all like to wear those t-shirts as badges of honor 😎)
 
 And do you know the best part? Its that well earned sleep that comes after spending a whole sleepless 24 hours of working 😴.
 
-If you want to know more about hackthons, I recommend reading [Advice to Students for Hackathons](https://abhas.io/advice-to-students-for-hackathons/) by Abhas Abhinav.
+If you want to know more about hackathons, I recommend reading [Advice to Students for Hackathons](https://abhas.io/advice-to-students-for-hackathons/) by Abhas Abhinav.
 
 {{<figure src="/images/blog/hack-bvi-cam-blog/working_group_photo.jpg" caption="Fig 1: All A.T.O.M members working hard on their respective projects.....or are they? :p">}}
 
