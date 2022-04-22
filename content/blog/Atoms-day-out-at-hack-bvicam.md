@@ -1,8 +1,8 @@
 ---
 title: "A.T.O.M's Day Out at Hack-BVICAM'22"
 date: 2022-03-28T13:56:06+06:00
-image: images/blog/hack-bvi-cam-blog/hack-bvi-cam-cover.png
-feature_image: images/blog/hack-bvi-cam-blog/hack-bvi-cam-cover.png
+image: images/blog/hack-bvi-cam-blog/hack-bvi-cam-cover.jpg
+feature_image: images/blog/hack-bvi-cam-blog/hack-bvi-cam-cover.jpg
 author: Jasmeet Singh
 ---
 
@@ -50,7 +50,7 @@ Tech Stack Used in the Project:
 
 The project source code can be found on our GitHub page: <a href="https://github.com/atom-robotics-lab/BVPICAM-RUNTIME_TERROR">https://github.com/atom-robotics-lab/BVPICAM-RUNTIME_TERROR</a>
 
-{{<figure src="/images/blog/hack-bvi-cam-blog/runtime_terror_award.png" width=100% caption="Fig 2: Team RUNTIME_TERROR receiving the award(left)  Team Leader Naman wearing the Wearable Device the Team Made(Right)">}}
+{{<figure src="/images/blog/hack-bvi-cam-blog/runtime_terror_award.jpg" width=100% caption="Fig 2: Team RUNTIME_TERROR receiving the award(left)  Team Leader Naman wearing the Wearable Device the Team Made(Right)">}}
 {{<figure src="/images/blog/hack-bvi-cam-blog/runtime_terror_grafana.png" width=100% caption="Fig 3: Grafana Dashboard showing the sensor values for coal miner">}}
 
 
