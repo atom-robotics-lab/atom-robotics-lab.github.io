@@ -19,22 +19,22 @@ summarylength = 25
     name    = "Wiki"
     url     = "wiki"
     weight  = 3
-  [[menu.nav]]
-    name    = "Projects"
-    url     = "projects"
-    weight  = 4
+  # [[menu.nav]]
+  #  name    = "Projects"
+  #  url     = "projects"
+  #  weight  = 4
   [[menu.nav]]
     name    = "Blog"
     url     = "blog"
-    weight  = 5
-  [[menu.nav]]
-    name    = "Sessions"
-    url     = "sessions"
-    weight  = 6
+    weight  = 4
+  # [[menu.nav]]
+  # name    = "Sessions"
+  # url     = "sessions"
+  # weight  = 6
   [[menu.nav]]
     name    = "Get in touch"
     url     = "contact"
-    weight  = 7
+    weight  = 5
 
 # Site Params
 [params]
@@ -78,7 +78,7 @@ summarylength = 25
     heading               = "A.T.O.M ROBOTICS LAB"
     tagline               = "WE PLAY HARD, WE WORK HARD"
     primary_button        = "See Our Projects"
-    primary_button_url    = "portfolio"
+    primary_button_url    = "https://github.com/atom-robotics-lab"
     secondary_button      = "Connect with Us"
     secondary_button_url  = "contact"
 
@@ -124,6 +124,9 @@ summarylength = 25
         [[params.footer.social.link]]
           name = "Discord"
           url  = "https://discord.gg/QxezpRQkJG"
+        [[params.footer.social.link]]
+          name = "Twitter"
+          url  = "https://twitter.com/atom_robotics_"
         [[params.footer.social.link]]
           name = "Instagram"
           url  = "https://www.instagram.com/a.t.o.m_robotics_lab/"
