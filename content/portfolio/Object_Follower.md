@@ -2,7 +2,7 @@
 title: "Object Follower"
 date: 2019-12-23T20:56:42+06:00
 type: portfolio
-image: "images/projects/project-thumb-four.jpg"
+image: "images/projects/Object_Follower.png"
 category: ["Project"]
 project_images: ["images/projects/Object_Follower.png"]
 ---
