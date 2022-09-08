@@ -19,22 +19,26 @@ summarylength = 25
     name    = "Wiki"
     url     = "wiki"
     weight  = 3
-  # [[menu.nav]]
-  #  name    = "Projects"
-  #  url     = "projects"
-  #  weight  = 4
+ [[menu.nav]]
+    name    = "Portfolio"
+    url     = "portfolio"
+    weight  = 4
   [[menu.nav]]
     name    = "Blog"
     url     = "blog"
-    weight  = 4
+    weight  = 5
   # [[menu.nav]]
   # name    = "Sessions"
   # url     = "sessions"
   # weight  = 6
   [[menu.nav]]
+    name    = "Download"
+    url     = "downloads"
+    weight  = 6
+  [[menu.nav]]
     name    = "Get in touch"
     url     = "contact"
-    weight  = 5
+    weight  = 7
 
 # Site Params
 [params]
