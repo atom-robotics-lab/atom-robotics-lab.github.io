@@ -32,7 +32,7 @@ summarylength = 25
   # url     = "sessions"
   # weight  = 6
   [[menu.nav]]
-    name    = "Download"
+    name    = "Downloads"
     url     = "downloads"
     weight  = 6
   [[menu.nav]]
