@@ -3,7 +3,7 @@ title: "Curve Tracer"
 date: 2019-12-23T20:56:42+06:00
 type: portfolio
 image: "images/projects/Curve_Tracer.png"
-category: ["Project"]
+category: ["ROS | OpenCV | Gazebo | PID "]
 project_images: ["images/projects/Curve_Tracer.png"]
 ---
 

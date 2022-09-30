@@ -3,7 +3,7 @@ title: "Line Follower"
 date: 2019-12-23T20:56:42+06:00
 type: portfolio
 image: "images/projects/Line_Follower.png"
-category: ["Project"]
+category: ["ROS | OpenCV | Gazebo | Blender | Robot-Perception"]
 project_images: ["images/projects/Line_Follower.png"]
 ---
 

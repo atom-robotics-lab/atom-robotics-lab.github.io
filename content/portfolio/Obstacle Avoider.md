@@ -3,7 +3,7 @@ title: "Obstacle Avoider"
 date: 2019-12-23T20:56:42+06:00
 type: portfolio
 image: "images/projects/Obstacle_Avoider.png"
-category: ["Project"]
+category: ["ROS | OpenCV | Gazebo | Robot-Perception | Bug Algorithm"]
 project_images: ["images/projects/Obstacle_Avoider.png"]
 ---
 

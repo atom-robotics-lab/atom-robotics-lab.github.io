@@ -3,7 +3,7 @@ title: "Aruco Navigation"
 date: 2019-12-23T20:56:42+06:00
 type: portfolio
 image: "images/projects/Aruco_Navigation.png"
-category: ["Project"]
+category: ["ROS | OpenCV | Gazebo | Robot-Perception"]
 project_images: ["images/projects/Aruco_Navigation.png"]
 ---
 
