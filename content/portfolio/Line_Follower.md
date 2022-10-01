@@ -4,7 +4,7 @@ date: 2019-12-23T20:56:42+06:00
 type: portfolio
 image: "images/projects/Line_Follower.png"
 category: ["ROS | OpenCV | Gazebo | Blender | Robot-Perception"]
-project_images: ["images/projects/Line_Follower.png"]
+project_images: ["images/projects/line_follower.gif"]
 ---
 
 This project is a simulation of a Line Following Robot based on Image Processing using real time camera view from the robot. The sim uses our in-house mobile base platform, MR ROBOT.
