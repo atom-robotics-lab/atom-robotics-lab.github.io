@@ -3,7 +3,7 @@ title: "Object Follower"
 date: 2019-12-23T20:56:42+06:00
 type: portfolio
 image: "images/projects/Object_Follower.png"
-category: ["ROS, OpenCV | Gazebo | Robot-Perception"]
+category: ["ROS | OpenCV | Gazebo | Robot-Perception"]
 project_images: ["images/projects/object_follower.gif"]
 ---
 

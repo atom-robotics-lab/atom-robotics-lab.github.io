@@ -20,7 +20,7 @@ summarylength = 25
     url     = "wiki"
     weight  = 3
  [[menu.nav]]
-    name    = "Portfolio"
+    name    = "Projects"
     url     = "portfolio"
     weight  = 4
   [[menu.nav]]

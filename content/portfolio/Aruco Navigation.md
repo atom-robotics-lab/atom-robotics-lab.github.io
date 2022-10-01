@@ -3,8 +3,8 @@ title: "Aruco Navigation"
 date: 2019-12-23T20:56:42+06:00
 type: portfolio
 image: "images/projects/Aruco_Navigation.png"
-category: ["ROS | OpenCV | Gazebo | Robot-Perception"]
 project_images: ["images/projects/aruco_navigation.gif"]
+category: ["ROS | OpenCV | Gazebo | Robot-Perception"]
 ---
 
 Presenting to you another one of our Computer Vision-based projects: Aruco Navigation

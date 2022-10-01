@@ -4,7 +4,7 @@ date: 2019-12-23T20:56:42+06:00
 type: portfolio
 image: "images/projects/Obstacle_Avoider.png"
 category: ["ROS | OpenCV | Gazebo | Robot-Perception | Bug Algorithm"]
-project_images: ["images/projects/Obstacle_Avoider.png"]
+project_images: ["images/projects/obstacle_avoider.gif"]
 ---
 
 We have developed a custom obstacle avoidance algorithm that is a mix of BUG 2 and BUG 0 algorithms. The Gazebo Simulation above shows our obstacle avoidance algorithm in action on our MR Robot mobile base platform.
