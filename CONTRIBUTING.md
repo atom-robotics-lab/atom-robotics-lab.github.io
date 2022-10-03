@@ -27,6 +27,11 @@ Here are a few things that will help us help resolve your issues:
     We need to use the `--recursive` tag since it uses submodules for the themes.
 * Our website uses an open-source framework called Hugo. Use this [link](https://gohugo.io/getting-started/quick-start/) to install and use Hugo
 
+* Install git-lfs with  :
+  ```bash
+     sudo apt-get install git-lfs
+  ```
+
 * Refer to the section below if your task requires you to make changes to the theme of the website.
 
 * Fork the repo and Create a new branch: 
