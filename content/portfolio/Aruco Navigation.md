@@ -3,9 +3,10 @@ title: "Aruco Navigation"
 date: 2019-12-23T20:56:42+06:00
 type: portfolio
 image: "images/projects/Aruco_Navigation.png"
-project_images: ["images/projects/aruco_navigation.gif"]
 category: ["ROS | OpenCV | Gazebo | Robot-Perception"]
 ---
+
+{{<figure src="/images/projects/aruco_navigation.gif" alt="steward" loading="eager" width="720">}}
 
 Presenting to you another one of our Computer Vision-based projects: Aruco Navigation
 This project aims to make our self-made mobile base MR_ROBOT navigate through the simulation world using Aruco Markers.
