@@ -13,5 +13,4 @@ This project is based on our custom mobile base platform, MR. ROBOT. The project
 
 Github : https://github.com/atom-robotics-lab/curve_tracer
 
-Youtube : https://youtu.be/Q7NJNk8gUJQ
 
