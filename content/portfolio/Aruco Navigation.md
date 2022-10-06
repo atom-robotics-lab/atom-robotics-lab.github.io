@@ -6,7 +6,8 @@ image: "images/projects/Aruco_Navigation.png"
 category: ["ROS | OpenCV | Gazebo | Robot-Perception"]
 ---
 
-{{<figure src="/images/projects/aruco_navigation.gif" alt="steward" loading="eager" width="720">}}
+{{<youtube mPa3XGROl2Y>}}
+<br><br>
 
 Presenting to you another one of our Computer Vision-based projects: Aruco Navigation
 This project aims to make our self-made mobile base MR_ROBOT navigate through the simulation world using Aruco Markers.
@@ -18,5 +19,5 @@ This project makes use of ROS, Python, Gazebo and OpenCV. It also uses a Proport
 
 Github : https://github.com/atom-robotics-lab/aruco_navigation
 
-Youtube : https://youtu.be/mPa3XGROl2Y
+
 
