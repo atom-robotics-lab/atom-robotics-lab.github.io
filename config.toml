@@ -37,7 +37,7 @@ summarylength = 25
     weight  = 6
   [[menu.nav]]
     name    = "Get in touch"
-    url     = "contact"
+    url     = "https://linktr.ee/a.t.o.m_robotics_lab"
     weight  = 7
 
 # Site Params
@@ -72,7 +72,7 @@ summarylength = 25
   [params.navAction]
     status  = true
     name    = "Get in touch"
-    url     = "contact"
+    url     = "https://linktr.ee/a.t.o.m_robotics_lab"
   
 
   # Banner Section
@@ -84,7 +84,7 @@ summarylength = 25
     primary_button        = "See Our Projects"
     primary_button_url    = "https://github.com/atom-robotics-lab"
     secondary_button      = "Connect with Us"
-    secondary_button_url  = "contact"
+    secondary_button_url  = "https://linktr.ee/a.t.o.m_robotics_lab"
 
 #  [params.portfolio]
 #    enable    = true
