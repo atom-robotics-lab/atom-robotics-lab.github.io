@@ -3224,6 +3224,13 @@ figure {
   min-height: 100vh;
   width: 100%; }
 
+.news {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px; }
+  
 .container {
   margin: 1rem auto;
   max-width: 90rem;
