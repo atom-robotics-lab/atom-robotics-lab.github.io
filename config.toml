@@ -4,8 +4,8 @@ title         = "A.T.O.M Labs"
 theme         = "roxo"
 summarylength = 25
 # markup
-[markup.highlight]
-  noClasses = false
+  [markup.highlight]
+    style = 'friendly'
 # Site Menus
 [menu]
   # Navbar Menus

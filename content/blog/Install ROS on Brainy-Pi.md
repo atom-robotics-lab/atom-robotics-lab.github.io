@@ -58,8 +58,7 @@ cat <<EOF | sudo tee /boot/extlinux/extlinux.conf
 label Ubuntu 18.04
     kernel /Image
     fdt /rk3399-brainypi.dtb
-    append earlycon=uart8250,mmio32,0xff1a0000 swiotlb=1 coherent_pool=1m earlyprintk
-     console=ttyS2,1500000n8 console=tty0 init=/sbin/init
+    append earlycon=uart8250,mmio32,0xff1a0000 swiotlb=1 coherent_pool=1m earlyprintk console=ttyS2,1500000n8 console=tty0 init=/sbin/init
 EOF
 {{< / highlight >}}
 
