@@ -54,7 +54,8 @@ cat <<EOF | sudo tee /boot/extlinux/extlinux.conf
 label Ubuntu 18.04
     kernel /Image
     fdt /rk3399-brainypi.dtb
-    append earlycon=uart8250,mmio32,0xff1a0000 swiotlb=1 coherent_pool=1m earlyprintk console=ttyS2,1500000n8 console=tty0 init=/sbin/init
+    append earlycon=uart8250,mmio32,0xff1a0000 swiotlb=1 coherent_pool=1m earlyprintk
+     console=ttyS2,1500000n8 console=tty0 init=/sbin/init
 EOF
 {{< / highlight >}}
 
@@ -63,6 +64,8 @@ Now reboot to the Recovery OS.
 Now you should be able to install Ubuntu 18.04 on BrainyPi.
 
 Since we are using Ubuntu 18.04, we have to use the ROS version compatible with it, that is ROS melodic.(you can use any Ubuntu version you like, just make sure to use the version of ROS compatible with it)
+
+{{<figure src="/images/blog/brainy-pi/ssh.png" caption="ssh into brainy pi">}}
 
 #### Finally, Let's Install ROS 🎉
 
@@ -82,6 +85,8 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/Ubuntu $(lsb_release -sc) main
 sudo apt install curl
 curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 ```
+{{<figure src="/images/blog/brainy-pi/curl.png" caption="installing curl">}}
+
 ##### 3. Update your package index & Install ROS
 
 Now you need to update your package index so that apt can find the ROS packages from the newly added `packages.ros.org` source.
@@ -96,6 +101,8 @@ After updating the package index we can see that apt has fetched packages from t
 sudo apt install ros-melodic-ros-base
 ```
 
+{{<figure src="/images/blog/brainy-pi/ros_melodic.png" caption="installing ros-melodic">}}
+
 
 #### Using ROS Commands in the Terminal
 
@@ -107,11 +114,17 @@ To do that, we need source ROS's `setup.bash` file in our terminal. It adds and 
 echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
+
+{{<figure src="/images/blog/brainy-pi/source.png" caption="sourcing the bashrc">}}
+
 Now you should be able to launch the `ROS Master` in your terminal using the following command:
 
 ```shell
 roscore
 ```
+
+{{<figure src="/images/blog/brainy-pi/roscore.png" caption="running the roscore command">}}
+
 Now that we have made sure that we can run the ROS Master from our terminal, it is time that we start doing something with ROS. Below, we discuss some basic steps on how to create a ROS package and a ROS node using python. If you want to understand more deeply about the concepts of ROS you can head over to [our wiki](https://atom-robotics-lab.github.io/wiki/markdown/ros/ros.html).
 
 #### Creating a ROS Workspace
@@ -138,6 +151,8 @@ Build the workspace:
 catkin_make
 ```
 
+{{<figure src="/images/blog/brainy-pi/make_init.png" caption="initializing the workspace and building the dependencies">}}
+
 Now to make you custom packages in your `catkin_ws` detectable through your terminal, you have to source your workspace:
 ```shell
 source ~/catkin_ws/devel/setup.bash
@@ -148,6 +163,8 @@ The setup.bash needs to be sourced everytime. So to avoid that we will simply ad
 sudo nano ~/.bashrc
 source ~/catkin_ws/devel/setup.bash
 ```
+
+{{<figure src="/images/blog/brainy-pi/source.png" caption="installing ros-melodic">}}
 
 Make sure to add this line at the end of your `.bashrc` file.
 Now simply save(ctrl+o) and exit(ctrl+x)
@@ -237,6 +254,9 @@ Once the roscore is running open a new terminal and run the node using:
 ```shell
 rosrun pkg_ros_basics node_hello_ros.py
 ```
+
+{{<figure src="/images/blog/brainy-pi/test_script.png" caption="installing ros-melodic">}}
+
 > **Note:** This command will work only if you have sourced `setup.bash `of your catkin workspace either manually or using `.bashrc`.
 
 
