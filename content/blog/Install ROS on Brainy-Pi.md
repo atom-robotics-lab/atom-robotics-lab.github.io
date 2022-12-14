@@ -261,5 +261,6 @@ rosrun pkg_ros_basics node_hello_ros.py
 
 > **Note:** This command will work only if you have sourced `setup.bash `of your catkin workspace either manually or using `.bashrc`.
 
+##### Now your BrainyPi has ROS installed in it and you can move forward with building amzing robotics applications with it!
 
-#### Congratulations!🎉. Now your BrainyPi has ROS installed in it and you can move forward with building amzing robotics applications with it!
+## Congratulations!🎉
