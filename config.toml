@@ -4,6 +4,12 @@ title         = "A.T.O.M Labs"
 theme         = "roxo"
 summarylength = 25
 googleAnalitycsID = "G-PLG0BJF1QP"
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+  
 # markup
   [markup.highlight]
     style = 'friendly'
