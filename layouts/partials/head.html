@@ -2,6 +2,10 @@
   <meta charset="utf-8" />
   <title>{{ .Title }}</title>
 
+  <!--google analytics header-->
+  {{ if .Site.Params.GoogleAnalyticsID }}
+  {{ partial "analytics-gtag.html" . }}
+  {{ end }}
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -19,9 +23,6 @@
   {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
   <link href="{{ $style.Permalink }}" rel="stylesheet" />
 
-  <!--google analytics header-->>
-  {{ template "_internal/google_analytics.html" . }}
-  
   <!--Favicon-->
   <link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
   <link rel="icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
