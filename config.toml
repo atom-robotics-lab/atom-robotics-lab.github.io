@@ -3,6 +3,7 @@ languageCode  = "en-us"
 title         = "A.T.O.M Labs"
 theme         = "roxo"
 summarylength = 25
+googleAnalitycsID = "G-PLG0BJF1QP"
 # markup
   [markup.highlight]
     style = 'friendly'
