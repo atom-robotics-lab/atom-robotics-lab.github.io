@@ -1,383 +1,327 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!--  created with sitemap generator https://octopus.do  -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-    <url>
-        <loc>https://atom-robotics-lab.github.io</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/about</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/tool_setup/tool_setup.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/tool_setup/ros-pi.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/tool_setup/virtualenv.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/tool_setup/px4.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/ros.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/ROS_installation/ROS_index.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/ROS_installation/installation.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/ROS_installation/installation_on_mac.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/catkin_ws.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/package/package.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/master/master.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/node/node.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/launch/launch.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/examples/example.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/comm/comm.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/comm/topics/topics.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/comm/topics/rostopic.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/selectiontask24/selection_task24.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/selectiontask24/ROS_selection_task24.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/selectiontask24/Electronics_selection.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/selectiontask24/cad_sel.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/selectiontask24/submissions.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/general/access-repo.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/previous_tasks.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-task_cad_2022/selection-task.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-task_cad_2022/cad_sel.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-tasks2023/Selection_Tasks.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-tasks2023/ROS_Selection_Task.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-tasks2023/CV_Selection_Task.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-tasks2023/Elec_Selection_Task.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-tasks2023/CAD_Selection_Task.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-task2022/selection-task.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-task2021/selection-task.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/projects.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/mr-index.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/script-use/basic.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/script-use/working.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/script-use/launch.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/script-use/bash.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/major-code/code.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/major-code/twist_to_pwm.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/major-code/arduino.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/major-code/esp_diff_tf.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/miscellaneous/miss.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/genindex.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/search.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/wiki/index.html</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/portfolio</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/portfolio/aruco-navigation</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/portfolio/curve-tracer</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/portfolio/line_follower</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/portfolio/page/2</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/portfolio/object_follower</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/portfolio/obstacle-avoider</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/blog</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/blog/install-ros-on-brainy-pi</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/blog/atoms-experience-at-ros-developers-meetup</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/blog/atoms-day-out-at-hack-bvicam</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/downloads</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://atom-robotics-lab.github.io/contact</loc>
-        <lastmod>2023-10-23</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
+
+<url>
+  <loc>https://atom-robotics-lab.github.io/</loc>
+  <lastmod>2023-10-22T22:41:35+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/about/</loc>
+  <lastmod>2023-10-22T22:41:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/portfolio/</loc>
+  <lastmod>2023-10-22T22:41:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/blog/</loc>
+  <lastmod>2023-10-22T22:41:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/downloads/</loc>
+  <lastmod>2023-10-22T22:41:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/contact/</loc>
+  <lastmod>2023-10-22T22:41:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/tool_setup/tool_setup.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/ros.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/selectiontask24/selection_task24.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/general/access-repo.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/previous_tasks.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/projects.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/tool_setup/ros-pi.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/tool_setup/virtualenv.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/tool_setup/px4.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/selectiontask24/ROS_selection_task24.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/selectiontask24/Electronics_selection.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/selectiontask24/cad_sel.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/selectiontask24/submissions.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-tasks2023/Selection_Tasks.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-task_cad_2022/selection-task.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-task2022/selection-task.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-task2021/selection-task.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/mr-index.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/genindex.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/search.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/portfolio/aruco-navigation/</loc>
+  <lastmod>2023-10-22T22:41:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/portfolio/curve-tracer/</loc>
+  <lastmod>2023-10-22T22:41:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/portfolio/line_follower/</loc>
+  <lastmod>2023-10-22T22:41:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/portfolio/object_follower/</loc>
+  <lastmod>2023-10-22T22:41:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/portfolio/page/2/</loc>
+  <lastmod>2023-10-22T22:41:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/blog/atoms-experience-at-ros-developers-meetup/</loc>
+  <lastmod>2023-10-22T22:41:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/blog/install-ros-on-brainy-pi/</loc>
+  <lastmod>2023-10-22T22:41:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/blog/atoms-day-out-at-hack-bvicam/</loc>
+  <lastmod>2023-10-22T22:41:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/index.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/ROS_installation/ROS_index.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/catkin_ws.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/package/package.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/node/node.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/master/master.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/examples/example.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/launch/launch.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/comm/comm.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/comm/topics/topics.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/comm/topics/rostopic.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-tasks2023/ROS_Selection_Task.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-tasks2023/CV_Selection_Task.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-tasks2023/Elec_Selection_Task.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-tasks2023/CAD_Selection_Task.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/archives/sel-task_cad_2022/cad_sel.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/script-use/basic.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/major-code/code.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/miscellaneous/miss.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/script-use/working.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/script-use/launch.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/script-use/bash.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/major-code/twist_to_pwm.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/major-code/esp_diff_tf.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/projects/mr-robot/major-code/arduino.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/portfolio/obstacle-avoider/</loc>
+  <lastmod>2023-10-22T22:41:35+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/ROS_installation/installation.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://atom-robotics-lab.github.io/wiki/markdown/ros/ROS_installation/installation_on_mac.html</loc>
+  <lastmod>2023-10-16T10:40:27+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
 </urlset>
