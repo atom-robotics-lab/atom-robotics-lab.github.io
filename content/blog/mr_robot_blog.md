@@ -1,9 +1,10 @@
 ---
 title: "Whats behind MR.ROBOT ?"
-date: 2023-02-25
+date: 2024-02-25
 image: images/blog/mr_robot/cover_thumbnail_mr_robot.jpeg
 feature_image: images/blog/ros-meetup/Ros-Meetup-grp-pic.jpeg
 author: Kirti Nain
+linkdein:
 ---
 
 # MR Robot
