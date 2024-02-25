@@ -24,7 +24,6 @@ The modularity of the “MR-ROBOT” project is one of its main advantages. Sens
 
 MR Robot is equipped with two encoder motors, an ESP32 micro controller, a Raspberry Pi 4, an IMU, a LiDAR, a motor driver, and a 5V buck converter. The robot is designed to calculate the movement of the motors and send it to the microcontroller. The data is then published to a topic and used to calculate the odometry. The LiDAR and IMU are linked to the Raspberry Pi 4, and the motor driver is used to form an H-bridge for differential drive.Let's go over each of these specialized terminology in detail now.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ALdvA4_olxw?si=s58Hr8uuV8Bx7oVN&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 - Encoder Motors :- MR Robot is equipped with two encoder motors. The encoder motor calculates the movement of the motor and sends it to the microcontroller. This data is then used to calculate the odometry.
 - ESP32 Microcontroller :- It receives data from the encoder motors and processes it. The microcontroller then publishes the data to a topic that is used to calculate the odometry.
@@ -33,6 +32,8 @@ MR Robot is equipped with two encoder motors, an ESP32 micro controller, a Raspb
 - LiDAR X 2L Model :- The LiDAR X2L Model is a type of LiDAR sensor that is used to detect the distance and angle of objects in the environment. The LiDAR X2L Model is connected to the Raspberry Pi 4 and is used to create a map of the environment.
 - Motor Driver :- The motor driver is used to form an H-bridge for differential drive. The motor driver is connected to the microcontroller and the encoder motors. The motor driver is responsible for controlling the speed and direction of the motors.
 - 5V Buck Converter :- The 5V Buck Converter is used to convert the voltage from the battery to 5V.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ALdvA4_olxw?si=s58Hr8uuV8Bx7oVN&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 To wrap things up, MR Robot is an intricately engineered robotic system, integrating cutting-edge sensors and components for seamless environmental navigation. With LiDAR, IMU, and Encoder Motor, this robot boasts precision in its movements. Motor control is facilitated through a motor driver, while sensor data processing is efficiently managed by a microcontroller. In essence, MR Robot stands as a formidable and adaptable platform, adept at executing diverse tasks with finesse.
 
@@ -47,6 +48,8 @@ MR Robot employs the ROS Serial protocol for seamless communication with its var
   Move Base :- The Move Base node is used for robot navigation. It takes in a goal location and uses the odometry and localization data from AMCL to navigate the robot to the goal location. Move Base utilizes a global planner and a local planner to plan a path to the goal and avoid obstacles in real-time.
 - LiDAR Data :- The LiDAR data from the Raspberry Pi 4 is used for mapping and navigation. The LiDAR sensor scans the environment and creates a 2D map of the surroundings. This map is then used by the Navigation Stack to determine the robot’s position and plan a path to the goal.
 - GMapping :- The LiDAR data from the Raspberry Pi 4 can also be used for mapping using the GMapping node. GMapping is a SLAM algorithm that uses the LiDAR data to create a map of the environment. The generated map can then be used for navigation by the Navigation Stack.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/07gnPGQ0gUo?si=A0t1fevo3TFhm7kz&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Summarizing, MR Robot represents an advanced and robust robotic platform, leveraging ROS Serial, Twist to PWM, and ESP_Diff_TF for precise motor control and odometry calculation. Navigation and localization are facilitated by the Navigation Stack, incorporating AMCL and Move Base algorithms. With the Raspberry Pi 4 interfacing with a LiDAR sensor, MR Robot adeptly harnesses LiDAR data for mapping and navigation tasks through the Navigation Stack, and alternatively utilizes GMapping for mapping purposes. In essence, MR Robot emerges as a versatile and adept solution, perfectly suited for a multitude of tasks.
 
