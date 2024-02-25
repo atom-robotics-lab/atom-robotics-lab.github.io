@@ -10,7 +10,11 @@ author: Kirti Nain
 
 Let's think of something that people have made in their likeness—I'm talking about robots. We get excited when we talk about robots, but there's also a healthy dose of curiosity, which often results in the development of more likely-to-be human robots. That is exactly the reason why we at A.T.O.M. came up with the idea of fabrication of “MR Robot”. Fascinating right? Let’s dive more into “MR Robot” then.
 
-<center><img src="../../static/images/blog/mr_robot/cover_mr_robot.jpeg" width="250px" height="250px" ></center>
+<center><img class="image" src="../../static/images/blog/mr_robot/cover_mr_robot.jpeg" width="250px" height="250px" ></center>
+<style>.image{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%}</style>
 
 MR Robot is a kind of autonomous mobile robot (AMR), it can understand and move through its environment without being overseen directly by an operator or limited to a fixed, predetermined path. It is designed to navigate its environment using the ROS (Robot Operating System) navigation stack. The project is designed with versatility in mind; that is, it is composed of plug-and-play components that may be altered to accommodate various use cases. ROS navigation stack consists of several software packages that enable robot mapping and navigation. This enables “MR-ROBOT” to precisely explore its environment and avoid obstacles by utilizing sensors like LIDAR, cameras, and IMU.
 
