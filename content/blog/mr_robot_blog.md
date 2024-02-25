@@ -10,9 +10,9 @@ author: Kirti Nain
 
 Let's think of something that people have made in their likeness—I'm talking about robots. We get excited when we talk about robots, but there's also a healthy dose of curiosity, which often results in the development of more likely-to-be human robots. That is exactly the reason why we at A.T.O.M. came up with the idea of fabrication of “MR Robot”. Fascinating right? Let’s dive more into “MR Robot” then.
 
-<div style="text-align: center;">
-    <img class="image" src="../../static/images/blog/mr_robot/cover_mr_robot.jpeg" width="250px" height="250px">
-</div>
+<p align="center">
+    <img class="image" src="../../static/images/blog/mr_robot/cover_mr_robot.jpeg" width="450px" height="450px">
+</p>
 MR Robot is a kind of autonomous mobile robot (AMR), it can understand and move through its environment without being overseen directly by an operator or limited to a fixed, predetermined path. It is designed to navigate its environment using the ROS (Robot Operating System) navigation stack. The project is designed with versatility in mind; that is, it is composed of plug-and-play components that may be altered to accommodate various use cases. ROS navigation stack consists of several software packages that enable robot mapping and navigation. This enables “MR-ROBOT” to precisely explore its environment and avoid obstacles by utilizing sensors like LIDAR, cameras, and IMU.
 
 MR Robot leverages Simultaneous Localization and Mapping (SLAM) algorithms to autonomously navigate, understand, and interact with their environment by simultaneously estimating their own position and constructing a map of the surroundings using sensor data, enabling real-time decision-making and adaptive behavior in dynamic environments.
@@ -23,6 +23,8 @@ The modularity of the “MR-ROBOT” project is one of its main advantages. Sens
 ### Hardware Working
 
 MR Robot is equipped with two encoder motors, an ESP32 micro controller, a Raspberry Pi 4, an IMU, a LiDAR, a motor driver, and a 5V buck converter. The robot is designed to calculate the movement of the motors and send it to the microcontroller. The data is then published to a topic and used to calculate the odometry. The LiDAR and IMU are linked to the Raspberry Pi 4, and the motor driver is used to form an H-bridge for differential drive.Let's go over each of these specialized terminology in detail now.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ALdvA4_olxw?si=s58Hr8uuV8Bx7oVN&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 - Encoder Motors :- MR Robot is equipped with two encoder motors. The encoder motor calculates the movement of the motor and sends it to the microcontroller. This data is then used to calculate the odometry.
 - ESP32 Microcontroller :- It receives data from the encoder motors and processes it. The microcontroller then publishes the data to a topic that is used to calculate the odometry.
