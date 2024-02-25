@@ -1,9 +1,10 @@
 ---
 title: "Whats behind MR.ROBOT ?"
-date: 2023-02-25
+date: 2024-02-25
 image: images/blog/mr_robot/cover_mr_robot.jpeg
 feature_image: images/blog/mr_robot/cover_thumbnai_mr_robot.jpeg
 author: Kirti Nain
+linkdein: https://www.linkedin.com/in/kiritinain/
 ---
 
 # MR Robot
@@ -21,7 +22,6 @@ The modularity of the “MR-ROBOT” project is one of its main advantages. Sens
 ### Hardware Working
 
 MR Robot is equipped with two encoder motors, an ESP32 micro controller, a Raspberry Pi 4, an IMU, a LiDAR, a motor driver, and a 5V buck converter. The robot is designed to calculate the movement of the motors and send it to the microcontroller. The data is then published to a topic and used to calculate the odometry. The LiDAR and IMU are linked to the Raspberry Pi 4, and the motor driver is used to form an H-bridge for differential drive.Let's go over each of these specialized terminology in detail now.
-
 
 - Encoder Motors :- MR Robot is equipped with two encoder motors. The encoder motor calculates the movement of the motor and sends it to the microcontroller. This data is then used to calculate the odometry.
 - ESP32 Microcontroller :- It receives data from the encoder motors and processes it. The microcontroller then publishes the data to a topic that is used to calculate the odometry.
