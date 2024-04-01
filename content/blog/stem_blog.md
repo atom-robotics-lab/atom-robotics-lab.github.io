@@ -3,7 +3,7 @@ title: "ATOM's Technological Odyssey at the STEM Innovation Awards 2023"
 date: 2024-02-29
 image: images/blog/STEM-blog/cover_pic2.jpg
 feature_image: images/blog/STEM-blog/cover_pic.jpg
-author: Kirti Nain
+author: Kiriti Nain
 linkdein: https://www.linkedin.com/in/kiritinain/
 ---
 
