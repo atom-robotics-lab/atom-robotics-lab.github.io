@@ -3,7 +3,7 @@ title: "Whats behind MR.ROBOT ?"
 date: 2024-02-25
 image: images/blog/mr_robot/cover_mr_robot.jpeg
 feature_image: images/blog/mr_robot/cover_thumbnai_mr_robot.jpeg
-author: Kirti Nain
+author: Keerti Nain
 linkdein: https://www.linkedin.com/in/kiritinain/
 ---
 
