@@ -3,8 +3,8 @@ title: "ATOM's Trip To IIT Roorkee"
 date: 2024-06-16
 image: images/blog/roorkee-blog/2.2.png
 feature_image: images/blog/roorkee-blog/2.1.png
-author: Kirti Nain
-linkdein: https://www.linkedin.com/in/kirtinain/
+author: Kiriti Nain
+linkdein: https://www.linkedin.com/in/kiritinain/
 ---
 
 What's better than spontaneously registering for a well-known Robotics tournament and thriving until the very last minute to be done with the making of our robot for it? That adrenaline rush is just what each of us craves. And that's precisely how we, A.T.O.M. Labs, started this journey. The A.T.O.M. Labs recently attended Cognizance, IIT Roorkee's prestigious annual technical festival, on a journey fuelled by creativity and fellowship. Our team found itself in the center of a flurry of robotics challenges, enthralling concerts, and exhilarating gaming tournaments as the best technical brains in the country converged. One of the best things was getting to work on different robotics projects and thinking out of the box to make every approach better than before.
