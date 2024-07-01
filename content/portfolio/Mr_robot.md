@@ -1,8 +1,8 @@
 ---
-title: "MR. ROBOT GUI - a generalized web gui for contolling ROS-based robots."
+title: "MR. ROBOT GUI "
 date: 2024-07-01T20:56:42+06:00
 type: portfolio
-image: "images/projects/Web-gui1.png"
+image: "/images/projects/Web-gui1.png"
 category: ["ROS | OpenCV | Gazebo | Robot-Perception | React | Javascript"]
 ---
 
@@ -10,7 +10,7 @@ category: ["ROS | OpenCV | Gazebo | Robot-Perception | React | Javascript"]
 
 <br><br>
 
-# MR ROBOT GUI
+### MR ROBOT GUI
 
 Welcome to the vibrant world of MR-ROBOT-gui, where ROS and JavaScript converge to create a seamless Web UI for taking charge of Mr. Robot.
 
