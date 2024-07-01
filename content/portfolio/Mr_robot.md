@@ -12,7 +12,7 @@ category: ["ROS | OpenCV | Gazebo | Robot-Perception | React | Javascript"]
 
 ### MR ROBOT GUI
 
-Welcome to the vibrant world of MR-ROBOT-gui, where ROS and JavaScript converge to create a seamless Web UI for taking charge of Mr. Robot.
+Welcome to the vibrant world of MR-ROBOT-gui- a generalized web gui for controlling ros based robots, where ROS and JavaScript converge to create a seamless Web UI for taking charge of Mr. Robot.
 
 ## The ROBOT-gui
 
