@@ -1,12 +1,13 @@
 ---
 title: "MR. ROBOT GUI - a generalized web gui for contolling ROS-based robots."
-date: 2024-07-1
+date: 2024-07-01T20:56:42+06:00
 type: portfolio
 image: "images/projects/Web-gui1.png"
 category: ["ROS | OpenCV | Gazebo | Robot-Perception | React | Javascript"]
 ---
 
-{{<youtube mPa3XGROl2Y>}}
+<!-- {{<youtube mPa3XGROl2Y>}} -->
+
 <br><br>
 
 # MR ROBOT GUI
@@ -22,4 +23,4 @@ It stands as a testament to the fusion of cutting-edge technology, blending ROS 
 
 Thanks to MR-ROBOT-gui, the power to interact with your robot is now at your fingertips, accessible through any web browser. Whether you're at home, in the office, or on the go, the connection remains seamless, and the control remains in your hands. Comprises of a power button, minimap which expands to full screen on double click, also allows to set a goal for the robot to move to a desired position, joystick control to feel the movement of robot at fingertips
 
-<!-- Github : https://github.com/atom-robotics-lab/MR-ROBOT-gui -->
+Github : https://github.com/atom-robotics-lab/MR-ROBOT-gui
